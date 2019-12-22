@@ -38,6 +38,9 @@
 .project-image > #apreciodepana {
   background-image: url(../images/screems/apreciodepana.png);
 }
+.project-image > #urbaner {
+  background-image: url(../images/screems/urbaner.png);
+}
 
 
 .shadow-large:hover .project-inner-image {
