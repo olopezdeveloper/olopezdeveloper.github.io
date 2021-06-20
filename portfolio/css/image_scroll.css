@@ -42,6 +42,10 @@
   background-image: url(../images/screems/urbaner.png);
 }
 
+.project-image > #genderlab {
+  background-image: url(../images/screems/genderlab.png);
+}
+
 
 .shadow-large:hover .project-inner-image {
   animation: moveSlideshow 50s linear infinite;
