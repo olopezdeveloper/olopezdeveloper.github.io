@@ -20,6 +20,18 @@ jQuery(document).ready(function($) {
 
     });
    
+
+  $('#language').change(function() {
+    console.log(this.checked);
+    if(this.checked){
+        $(".english").removeClass("hidden");
+        $(".spanish").addClass("hidden");
+    }else{
+        $(".spanish").removeClass("hidden");
+        $(".english").addClass("hidden");
+    }
+
+  })
     
 
 });
